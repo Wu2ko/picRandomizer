@@ -1,0 +1,11 @@
+@import "_var";
+@import "_header";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: $tomato;
+}

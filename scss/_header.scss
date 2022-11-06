@@ -1,0 +1,12 @@
+@import "_var";
+
+header {
+
+    .btn {
+        background-color: $greenskin;
+        margin: 1rem;        
+    }
+    .btn:hover{
+        background-color: $greenskin-mouseover;
+    }
+}
