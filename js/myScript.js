@@ -41,13 +41,29 @@ const imageArray = [
     "../img/iTwo.jpg",
     "../img/iEight.jpg"
 ]
+const notimageArray = [
+    "/../img/iEleven.jpg",
+    "../img/iFive.jpg",
+    "../img/iFour.jpg",
+    "../img/iNine.jpg",
+    "../img/iOne.jpg",
+    "../img/iSeven.jpg",
+    "../img/iSix.jpg",
+    "../img/iTen.jpg",
+    "../img/iThree.jpg",
+    "../img/iTwelve.jpg",
+    "../img/iTwo.jpg",
+    "../img/iEight.jpg"
+]
+
+
 let imageArrayRando = imageArray
 ///button funs
 
 ///////first button
 showB.addEventListener('click', function () {
     clearBox("images")
-    imageArray.forEach(element => {
+    notimageArray.forEach(element => {
   
         let newImg = document.createElement("img");
 
