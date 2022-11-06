@@ -9,3 +9,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: $tomato;
 }
+img {
+    max-width: 30rem;
+    max-height: 30rem;
+    margin: 1rem;
+}
